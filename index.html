@@ -1,39 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Footer with Larger Images</title>
-    <style>
-        body {
-            background-image: url('gradient.jpeg');
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+  <title>GhostWeb</title>
+  <style>
+    body {
+      background-image: url('Files/gradient.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+    }
 
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: rgba(255, 255, 255, 0); /* Semi-transparent white */
-          }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.336);
+      color: white;
+      width: 45%;
+      margin: 0 auto;
+    }
 
-        footer img {
-            width: 100px; /* Adjust the width as needed */
-            height: auto;
-            margin: 0 5px;
-        }
+    nav {
+      display: flex;
+      justify-content: center; /* This centers the buttons horizontally */
+      margin-top: 10px;
+    }
 
-        footer a {
-            text-decoration: none;
-        }
-    </style>
+    nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      border: 1px solid white;
+      border-radius: 0;
+      display: inline-block;
+      margin: 0 110px; /* Adjust margin as needed */
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: black;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0);
+    }
+
+    footer img {
+      width: 100px;
+      height: auto;
+      margin: 0 5px;
+    }
+
+    footer a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <footer>
-        <img src="flag-bi.png" alt="flag-bi">
-        <img src="chrome_evil.gif" alt="chrome_evil">
-        <a href="https://www.mozilla.org/en-US/firefox/"><img src="ffox.webp" alt="Firefox"></a>
-        <img src="phonechump.gif" alt="phonechump">
-        <a href="https://github.com/Ghostblackout"><img src="github.png" alt="Github"></a>
-        <img src="made_on_linux.gif" alt="made_on_linux">
-    </footer>
+  <header>
+    <h1>Welcome to my GhostWeb</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <p>Hi im ghost this is my frist website. With this website im trying to make a modern geocities themed for this website.</p>
+    <p>This website is still under construction so for right now the nav bar dose not work and there is no mobile optimization.</p>
+    <p>All the code for this very simple website is on my github</p>
+    <p>last updated 11/24/24</p>
+  </header>
+
+  <footer>
+    <p>Cool images and links.</p>
+    <img src="Files/flag-bi.png" alt="flag-bi">
+    <img src="Files/chrome_evil.gif" alt="chrome_evil">
+    <a href="https://www.mozilla.org/en-US/firefox/"><img src="Files/ffox.webp" alt="Firefox"></a>
+    <img src="Files/phonechump.gif" alt="phonechump">
+    <a href="https://github.com/GhostBlackout"><img src="Files/github.png" alt="Github"></a>
+    <img src="Files/made_on_linux.gif" alt="made_on_linux">
+  </footer>
 </body>
 </html>
