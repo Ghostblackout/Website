@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Galleries</title>
+<style>
+body {
+    background-image: url('Files/gradient.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent dark gray */
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  margin: 0 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #3CB371;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery-link {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.gallery-link img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-link:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-link h2 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="#">Contact</a>
+</nav>
+
+<h1>Welcome to the Image Galleries</h1>
+
+<div class="gallery-container">
+
+    <div class="gallery-link">
+        <a href="moonraker.html">
+            <img src="ksp_screenshots/Moonraker/on_pad.jpg" alt="Moonraker Mission">
+            <h2>Moonraker Mission 1</h2>
+        </a>
+    </div>
+
+
+</div>
+
+</body>
+</html>

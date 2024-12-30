@@ -8,20 +8,23 @@
       background-size: cover;
       background-repeat: no-repeat;
       font-family: Arial, sans-serif;
+      margin: 0;
+      color: white;
     }
 
     header {
       text-align: center;
       padding: 20px;
-      background-color: rgba(0, 0, 0, 0.336);
-      color: white;
-      width: 45%;
-      margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 60%;
+      margin: 20px auto;
+      border: 1px solid white;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     }
 
     nav {
       display: flex;
-      justify-content: center; /* This centers the buttons horizontally */
+      justify-content: center;
       margin-top: 10px;
     }
 
@@ -30,9 +33,8 @@
       color: white;
       padding: 10px 20px;
       border: 1px solid white;
-      border-radius: 0;
-      display: inline-block;
-      margin: 0 110px; /* Adjust margin as needed */
+      margin: 0 10px;
+      transition: background-color 0.3s, color 0.3s;
     }
 
     nav a:hover {
@@ -43,7 +45,8 @@
     footer {
       text-align: center;
       padding: 10px;
-      background-color: rgba(255, 255, 255, 0);
+      margin-top: 20px;
+      /* Removed background-color */
     }
 
     footer img {
@@ -54,21 +57,21 @@
 
     footer a {
       text-decoration: none;
+      color: lightblue;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to my GhostWeb</h1>
+    <h1>Welcome to GhostWeb</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
       <a href="#">Contact</a>
     </nav>
-    <p>Hi im ghost this is my frist website. With this website im trying to make a modern geocities themed for this website.</p>
-    <p>This website is still under construction so for right now the nav bar dose not work and there is no mobile optimization.</p>
-    <p>All the code for this very simple website is on my github</p>
-    <p>last updated 11/24/24</p>
+    <p>Hi im ghost this is my frist website. With this website im trying to make a modern geocities theme for this website.</p>
+    <p>This website is still under construction. All the code for this website is on my github</p>
+    <p>last updated 12/30/24</p>
   </header>
 
   <footer>
